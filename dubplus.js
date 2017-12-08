@@ -1728,8 +1728,8 @@ var myModule = {}; /**
 /*global Dubtrack */
 
 myModule.id = "dubplus-downdubs";
-myModule.moduleName = "Downdubs in Chat (mods only)";
-myModule.description = "Toggle showing downdubs in the chat box (mods only)";
+myModule.moduleName = "Downdubs in Chat";
+myModule.description = "Toggle showing downdubs in the chat box";
 myModule.category = "General";
 
 myModule.downdubWatcher = function (e) {
@@ -1746,10 +1746,6 @@ myModule.downdubWatcher = function (e) {
 };
 
 myModule.turnOn = function () {
-  if (!(0, _modcheck2.default)(Dubtrack.session.id)) {
-    return;
-  }
-
   Dubtrack.Events.bind("realtime:room_playlist-dub", this.downdubWatcher);
 
   // add this function to our global dubplus object so that downdubbed chat
