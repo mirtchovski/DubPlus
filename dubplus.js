@@ -895,7 +895,7 @@ exportSettings.srcRoot = _RESOURCE_SRC_;
 
 module.exports = exportSettings;
 
-}).call(this,'https://rawgit.com/DubPlus/DubPlus/master')
+}).call(this,'https://rawgit.com/mirtchovski/DubPlus/master')
 },{}],9:[function(require,module,exports){
 'use strict';
 
