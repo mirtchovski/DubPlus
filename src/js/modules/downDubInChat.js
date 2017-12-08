@@ -8,8 +8,8 @@ import userIsAtLeastMod from '../utils/modcheck.js';
 
 var myModule = {};
 myModule.id = "dubplus-downdubs";
-myModule.moduleName = "Downdubs in Chat (mods only)";
-myModule.description = "Toggle showing downdubs in the chat box (mods only)";
+myModule.moduleName = "Downdubs in Chat";
+myModule.description = "Toggle showing downdubs in the chat box";
 myModule.category = "General";
 
 myModule.downdubWatcher = function(e) {
