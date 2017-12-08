@@ -2502,8 +2502,7 @@ dubshover.showDubsOnHover = function () {
       });
       html += '</ul>';
     } else {
-      html = '<div id="dubinfo-preview" class="dubinfo-show dubplus-downdubs-hover dubplus-no-dubs" style="border-color: ' + dubdownBackground + '">' + 'No downdubs have been casted yet!' + '</div>';
-    }
+      html = '<div id="dubinfo-preview" class="dubinfo-show dubplus-downdubs-hover dubplus-no-dubs" style="border-color: ' + dubdownBackground + '">' + 'No downdubs have been cast yet!' + '</div>';
     }
 
     var newEl = document.createElement('div');
