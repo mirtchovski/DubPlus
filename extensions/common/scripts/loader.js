@@ -1,1 +1,1 @@
-$.getScript('https://rawgit.com/DubPlus/DubPlus/master/dubplus.js');
+$.getScript('https://rawgit.com/mirtchovski/DubPlus/master/dubplus.js');
