@@ -34,10 +34,6 @@ myModule.downdubWatcher = function(e) {
 };
 
 myModule.turnOn = function() {
-  if(!userIsAtLeastMod(Dubtrack.session.id)) {
-    return;
-  }
-
   Dubtrack.Events.bind("realtime:room_playlist-dub", this.downdubWatcher);
 
   // add this function to our global dubplus object so that downdubbed chat
